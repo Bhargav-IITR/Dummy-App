@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "117593489331",
+    "project_id": "dummy-app-5a63e",
+    "storage_bucket": "dummy-app-5a63e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117593489331:android:f9847f436bcb835db5d5c6",
+        "android_client_info": {
+          "package_name": "com.bhargav.dummy_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117593489331-d759v5dqhovg8m4a72uueibi0k8nj6tv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJV6vswi9xWMNsSEqmC6knsgc-rq2vhWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117593489331-d759v5dqhovg8m4a72uueibi0k8nj6tv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
