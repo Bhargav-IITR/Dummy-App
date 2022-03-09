@@ -1,14 +1,16 @@
-
 import 'package:flutter/material.dart';
+
 //need to put the navigation function in main file
-class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
+// ignore: camel_case_types
+class player extends StatefulWidget {
+  const player({Key? key}) : super(key: key);
 
   @override
-  State<Home> createState() => _HomeState();
+  State<player> createState() => _playerState();
 }
 
-class _HomeState extends State<Home> {
+// ignore: camel_case_types
+class _playerState extends State<player> {
   bool playing = false;
   var playButton = Icons.play_arrow;
   @override
@@ -32,7 +34,9 @@ class _HomeState extends State<Home> {
           icon: const Icon(
             Icons.arrow_back,
           ),
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pop(context);
+          },
         ),
       ),
       body: Container(
@@ -113,7 +117,9 @@ class _HomeState extends State<Home> {
                             playing = false;
                           }
                         },
-                        icon: Icon(playButton,),
+                        icon: Icon(
+                          playButton,
+                        ),
                       ),
                       IconButton(
                         iconSize: 45.0,
